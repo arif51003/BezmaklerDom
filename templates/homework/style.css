@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+background-color: rgb(220, 238, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bigbox{
+    margin-top: 25vh;
+    background-color: white;
+    border-radius:15px ;
+    padding: 30px;
+    width: 30%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title h1{
+    color: rgb(83, 83, 205);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.line input{
+    padding: 16px 24px;
+    border: 2px solid blue;
+    border-radius:10px;
+    width: 70%;
+    font-size: 20px;
+}
+
+.line button{
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(83, 83, 205);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;   
+}
+
+.line button:hover{
+    background-color: blue;
+
+}
+
+.TaskA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom:1px dashed rgb(206, 197, 197);
+
+}
+.TaskA i{
+    color: green;
+    font-size: 30px;
+}
+
+.TaskA p s{
+    font-size: 20px;
+    color: black;
+    opacity: 0.5;
+}
+
+.TaskA p {
+    font-size: 20px;
+    color: black;
+
+}
+
+.Remove{
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: rgb(223, 89, 45);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Remove:hover{
+    background-color: rgb(220, 51, 25);
+}
+
+.check{
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.TaskC{
+    padding: 10px 10px 10px 0px;
+}
